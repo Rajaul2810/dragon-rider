@@ -28,6 +28,7 @@ const Login = () => {
         success: false
     })
     const onSubmit = e => {
+        console.log("clicked");
        e.preventDefault();
         if (loginUser && user.email && user.password) {
             console.log("submit");
@@ -48,18 +49,19 @@ const Login = () => {
                     newUser.error = error.message;
                     newUser.success = false;
                     setUser(newUser);
+
                 });
         }
         if (!loginUser && user.email && user.password) {
-
+               console.log("signin");
             firebase.auth().signInWithEmailAndPassword(user.email, user.password)
                 .then((res) => {
-                    const newUser = { ...user };
+                    const newUser = { ...res.user };
                     newUser.error = '';
                     newUser.success = true;
                     setUser(newUser);
                     setLoggedInUser(newUser);
-                    console.log(from);
+                    console.log(newUser);
                     history.replace(from);
                    
 
@@ -69,6 +71,7 @@ const Login = () => {
                     newUser.error = error.message;
                     newUser.success = false;
                     setUser(newUser);
+                    console.log(newUser);
                 });
         }
         
