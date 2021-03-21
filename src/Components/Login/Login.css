@@ -1,0 +1,55 @@
+.login-form{
+    text-align: center;
+    margin: 5px 5px;
+}
+.login-form input{
+    height: 30px;
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.error{
+    color: red;
+}
+.submit-btn{
+    background-color: teal;
+}
+.submit-btn:hover{
+    cursor: pointer;
+}
+.google{
+    height: 30px;
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+.google:hover{
+    cursor: pointer;
+}
+.facebook{
+    height: 30px;
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+.facebook:hover{
+    cursor: pointer;
+}
+.login-footer{
+    text-align: center;
+}
+.login2 input{
+    height: 30px;
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.login2{
+    text-align: center;
+}

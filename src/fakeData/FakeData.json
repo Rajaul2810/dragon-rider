@@ -1,0 +1,29 @@
+[{
+    "id": 1,
+    "CarName": "Bike",
+    "CarImg": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8YmlrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "ticket1": 53,
+    "ticket2": 75,
+    "ticket3": 92
+  }, {
+    "id": 2,
+    "CarName": "Car",
+    "CarImg": "https://cdn.pixabay.com/photo/2012/04/12/23/48/car-30990__340.png",
+    "ticket1": 93,
+    "ticket2": 88,
+    "ticket3": 80
+  }, {
+    "id": 3,
+    "CarName": "Bus",
+    "CarImg": "https://i.ytimg.com/vi/0t_qRc8356Y/maxresdefault.jpg",
+    "ticket1": 98,
+    "ticket2": 95,
+    "ticket3": 57
+  }, {
+    "id": 4,
+    "CarName": "Train",
+    "CarImg": "https://assetsds.cdnedge.bluemix.net/sites/default/files/styles/big_2/public/feature/images/train_40_0_0.jpg?itok=cu9tH73V",
+    "ticket1": 90,
+    "ticket2": 92,
+    "ticket3": 61
+  }]

@@ -1,0 +1,56 @@
+.destination{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 10px;
+}
+
+
+.pick-form{
+    background-color: lightgray;
+    width: 250px;
+    margin-top: 20px;
+}
+.pick-form input{
+    height: 20px;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.pick-form form{
+    margin-left: 10px;
+
+}
+.pick-form button{
+    height: 20px;
+    width: 90%;
+    background-color: orange;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.pick{
+    margin-left: 5px;
+    background-color: orchid;
+}
+.from-to{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .destination {
+      text-align: center;
+      margin-left: 100px;
+     display: flex;
+     justify-content: space-between;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .destination {
+         text-align: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }

@@ -1,0 +1,26 @@
+.home{
+    padding-top: 10%;
+    height: 100%;
+    background-image: url(../../bg.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+   padding-bottom: 15%;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+@media screen and (max-width: 992px) {
+   .home {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+   }
+}
+
+@media screen and (max-width: 600px) {
+    .home {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+  }

@@ -1,0 +1,15 @@
+.ticket-info img{
+    width: 50px;
+}
+.ticket-info{
+    padding: 5px;
+
+}
+.ticket-info h5{
+    border: 3px solid lightgray;
+    padding: 5px;
+}
+.ticket-info span{
+    margin-left: 10px;
+    margin-right: 50px;
+}

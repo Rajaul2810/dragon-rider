@@ -1,0 +1,16 @@
+.rider{
+    width:200px ;
+    height: 200px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px lightgray;
+  margin-top: 10px;
+  text-align: center;
+  background-color: white;
+
+}
+.rider img{
+    width: 200px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
